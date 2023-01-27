@@ -43,7 +43,7 @@ void main(){
                  printf("0 ^ 0 is indeterminate\n");
             }else{
                 finalAnswer = pow(valOne, valTwo);
-                printf("%.3lf %c %.3lf = %.3lf\n", valOne, enteredSign, valTwo, finalAnswer);
+                printf("%.4lf %c %.4lf = %.4lf\n", valOne, enteredSign, valTwo, finalAnswer);
             }
             break;
 
